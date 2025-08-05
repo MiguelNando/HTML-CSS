@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@font-face {
+    font-family: Idroid;
+    src: url(fontes/idroid.otf) format('opentype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+    background-color: #84e1ad;
+    font-family: 'Lato', sans-serif;
+
+}
+
+
+header { 
+    padding: 15px;
+    color: white;
+    height: 150px;
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    background-image: linear-gradient(to top,#1a5c38,#278b54,#37c878 );
+    
+} 
+
+
+
+#primeirotitulo {
+    text-align: center;
+    color: white;
+
+
+}
+#segundotitulo {
+    padding: 15px;
+    text-align: center;
+}
+
+#pdotitulo::hover {
+    padding: 10px 0 0 0;
+    background-color: #c5ebd6;
+}
+
+main {
+    background-color: white;
+    width: 900px;
+    margin: auto;;
+    padding: 10px;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.507);
+    text-align: justify;
+    
+    
+}
+
+picture {
+    display: block;
+    margin: auto;
+    padding: 10px;
+   
+    
+}
+
+#seçãovideo {
+    background-color: #1a5c38;
+    width: 900px;
+    margin: auto;;
+    padding: 10px;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.507);
+}
+
+h1.idroid {
+    font-family: Idroid, sans-serif;
+    padding: 0px 0px 10px 0px;
+}
+
+
+
+h1{
+    color: #346f4f;
+}
+
+h1.h1comdegrade {
+    background-image: linear-gradient(to right,#c5ebd6,#d1efdf,white );
+    font-family: idroid;
+}
+
+h2.extra {
+    background-color: #2fa866;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    
+    padding: 10px;
+}
+
+p {
+    font-size: 18px;
+}
+
+
+.sectionextra {
+    width: 850px;
+    margin: auto;
+    padding: 10px;
+    
+   
+}
+
+
+
+.articleextra { 
+    width: 830px;
+    margin: auto;
+    padding: 10px;
+    background-color: #d9f2e6;
+    text-align: justify;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.ul1
+{
+    padding-left: 20px;
+}
+
+.ul2
+{
+    padding-left: 20px;
+    
+}
+
+footer {
+    background-color: #1a5c38;
+    text-align: center;
+    color: white;
+    
+}
+
+picture > img {
+    margin:  auto;
+    display: block;
+}
+
+iframe {
+   margin:  auto;
+    display: block;
+}
+
+strong {
+    color: #346f4f;
+}
+
+a {
+    color: #346f4f;
+    text-decoration: none;
+}
+
+a::after {
+    content: "⛓️";
+}
